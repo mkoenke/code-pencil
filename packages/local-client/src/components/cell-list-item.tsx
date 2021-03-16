@@ -29,12 +29,7 @@ const CellListItem: React.FC<CellListItemProps> = ({ cell }) => {
       </>
     )
   }
-  return (
-    <div className="cell-list-item">
-      {child}
-      {/* <ActionBar id={cell.id} /> */}
-    </div>
-  )
+  return <div className="cell-list-item">{child}</div>
 }
 
 export default CellListItem

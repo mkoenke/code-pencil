@@ -4,8 +4,20 @@ import { useTypedSelector } from '../hooks/use-typed-selector'
 import AddCell from './add-cell'
 import CellListItem from './cell-list-item'
 import './cell-list.css'
+import WelcomeModal from './welcome-modal'
 
 const CellList: React.FC = () => {
+  // const defaultText = {
+  //   id: 'startText',
+  //   type: 'text',
+  //   content: '# Welcome to Code-Pencil!',
+  // }
+  // const defaultCode = {
+  //   id: 'startCell',
+  //   type: 'code',
+  //   content:
+  //     '// import npm packages, css files, and so much more!  Use the encoded "show" function to render JSX elements!',
+  // }
   const cells = useTypedSelector(({ cells: { order, data } }) =>
     order.map((id) => data[id])
   )
@@ -24,6 +36,9 @@ const CellList: React.FC = () => {
 
   return (
     <div className="cell-list">
+      {/* <CellListItem cell={defaultText} />
+      <CellListItem cell={defaultCode} /> */}
+      <WelcomeModal />
       <AddCell forceVisible={cells.length === 0} prevCellId={null} />
       {renderedCells}
     </div>
