@@ -1,6 +1,7 @@
 # code-pencil
 
 <img src="./images/welcome.png">
+
 ## Installation
 
 ### Install: npm i code-pencil
