@@ -6,4 +6,4 @@
 
 ### Run: npx code-pencil serve
 
-<img src="./images/welcome.png>
+<img src="./images/welcome.png">
