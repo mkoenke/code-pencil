@@ -16,7 +16,7 @@ const WelcomeModal: React.FC = () => {
           editors, or delete if you choose.
         </h2>
         <h2 className="subtitle is-3">
-          You can also import CSS packages and/or packages from NPM!
+          You can also import CSS packages and modules from NPM!
         </h2>
         <h2 className="subtitle is-3">
           Use the built in "show" function to quickly render React Components!
