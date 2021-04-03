@@ -1,6 +1,6 @@
 {
   "name": "code-pencil",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "files": [
     "dist"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@code-pencil/local-client": "^1.1.0"
+    "@code-pencil/local-client": "^1.1.1"
   },
   "devDependencies": {
-    "@code-pencil/local-api": "^1.1.0",
+    "@code-pencil/local-api": "^1.1.1",
     "@types/node": "^14.14.34",
     "commander": "^7.1.0",
     "esbuild": "0.8.26",
